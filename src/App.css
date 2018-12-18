@@ -47,6 +47,7 @@
 }
 
 .pyramid {
+  margin: .5vh auto 3vh auto;
   animation-name: pyramid;
   animation-direction: alternate;
   animation-iteration-count: infinite;
