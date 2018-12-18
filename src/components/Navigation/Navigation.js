@@ -4,7 +4,7 @@ import Typed from 'react-typed';
 class Navigation extends Component {
     render(){
         return (
-            <header className="App-header">
+        <header className="App-header">
           <nav className="navbar">
             <row>
               <div class="col-4">
