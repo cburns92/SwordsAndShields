@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import pyramid from '../../images/pyramid.png'
 import Typed from 'react-typed';
+import { BrowserRouter as Link } from "react-router-dom";
 
 class Home extends Component {
     render(){
@@ -23,14 +24,14 @@ class Home extends Component {
                     showCursor={false} 
                 />
           </h2>
-          <a class = "nav-link" href=".">
+          <Link class = "nav-link" to="/creator">
             <Typed 
                     strings={['[Create A Character]']} 
                     typeSpeed={75}
                     showCursor={false} 
                     startDelay={12000}
             />
-          </a>
+          </Link>
         </div>
         )
     }

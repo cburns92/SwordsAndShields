@@ -64,7 +64,7 @@
     opacity:1
   }
   to {
-    opacity:.5
+    opacity:.5;
   }
   to {
     opacity: 0;

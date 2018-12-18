@@ -3,6 +3,7 @@ import './App.css';
 import Home from './components/Home/Home'
 import Character from './components/Character/Character'
 import Arena from './components/Arena/Arena'
+import Creator from './components/Creator/Creator'
 import Rankings from './components/Rankings/Rankings'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Typed from 'react-typed';
@@ -10,7 +11,6 @@ import Typed from 'react-typed';
 // const Character = () => <h1>This is the Character Sheet Page!</h1>
 // const Arena = () => <h1>This is the Arena! Or Arena Lobby!</h1>
 // const Rankings = () => <h1>This is the Player Rankings Page!</h1>
-
 class App extends Component {
   
   state = {
@@ -61,11 +61,14 @@ class App extends Component {
           </nav>
           
         </header>
+        <hr/>
 
         <Route exact path = "/" component = {Home} />
+        <Route path = "/creator" component = {Creator} />
         <Route path = "/character" component = {Character} />
         <Route path = "/arena" component = {Arena} />
         <Route path = "/rankings" component = {Rankings} />
+        
       </div>
       
       </Router>
