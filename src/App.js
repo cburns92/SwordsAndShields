@@ -53,7 +53,7 @@ class App extends Component {
                 />
                 </h1>
           <img src={pyramid} className = 'pyramid' alt = 'pyramid'></img>
-          <h2>
+          <h2 class = "message">
                 <Typed 
                     strings={['Welcome Adventurer, it is time to begin your journey!']} 
                     typeSpeed={75}
