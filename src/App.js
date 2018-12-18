@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
 import Home from './components/Home/Home'
+import Character from './components/Character/Character'
+import Arena from './components/Arena/Arena'
+import Rankings from './components/Rankings/Rankings'
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Typed from 'react-typed';
 
-const Character = () => <h1>This is the Character Sheet Page!</h1>
-const Arena = () => <h1>This is the Arena! Or Arena Lobby!</h1>
-const Rankings = () => <h1>This is the Player Rankings Page!</h1>
+// const Character = () => <h1>This is the Character Sheet Page!</h1>
+// const Arena = () => <h1>This is the Arena! Or Arena Lobby!</h1>
+// const Rankings = () => <h1>This is the Player Rankings Page!</h1>
 
 class App extends Component {
   
