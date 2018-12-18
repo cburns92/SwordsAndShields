@@ -18,7 +18,7 @@ class Home extends Component {
           <img src={pyramid} className = 'pyramid' alt = 'pyramid'></img>
           <h2 class = "message">
                 <Typed 
-                    strings={['Welcome Traveler, it is time to begin your journey!']} 
+                    strings={["Welcome Traveler, it's time to begin your journey!"]} 
                     typeSpeed={75}
                     startDelay={6000}
                     showCursor={false} 
